@@ -1,0 +1,13 @@
+<?php
+/*
+* Ú¾•¶Œ“I•ž&#21153;Ší’†“IPHP
+*/
+
+//Ú¾“ž“I•¶Œ–¼
+$filename=$_FILES['userfile']['name'];
+	
+//”cÚ¾“ž“I•¶Œ&#22797;§“žŽw’è•Û‘¶“I˜HŒa’†
+copy($_FILES['userfile']['tmp_name'],"/input/".$filename);
+
+	
+?>
